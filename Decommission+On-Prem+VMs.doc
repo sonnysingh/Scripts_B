@@ -1,0 +1,752 @@
+Date: Thu, 25 Sep 2025 09:59:38 +1200 (NZST)
+Message-ID: <1127440057.50.1758751178942@ip-10-86-56-139.ap-southeast-2.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_49_1774258734.1758751178939"
+
+------=_Part_49_1774258734.1758751178939
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Decommission On-Prem VMs</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Decommission On-Prem VMs</h1>
+    <div class=3D"Section1">
+        <div class=3D"confluence-information-macro confluence-information-m=
+acro-warning"><span class=3D"aui-icon aui-icon-small aui-iconfont-error con=
+fluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<h3 id=3D"DecommissionOnPremVMs-Pleasecompletethefollowingstepspriortoengag=
+ingustofinishthedecommissionofyourserver(s)">Please complete the following =
+steps prior to engaging us to finish the decommission of your server(s)</h3=
+>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 107=
+1.0px;">
+<thead>
+<tr>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Change Task</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Required</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Steps</th>
+</tr>
+</thead>
+<colgroup>
+<col style=3D"width: 241.0px;">
+<col style=3D"width: 203.0px;">
+<col style=3D"width: 625.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-#abf5d1 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" title=3D"Background colour : Light green 100%" colspan=3D=
+"3" data-highlight-colour=3D"#abf5d1"><p title=3D"">Actions to be performed=
+ <strong>before </strong>server has been shutdown</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Removing servers from monitoring</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Required to stop alerting/monitoring before decommissioning.<br><br>
+ If unsure, <a href=3D"https://confluence.nz.thenational.com/display/ECSSSC=
+/How+to+engage+the+Monitoring+Team" rel=3D"nofollow">engage the monitoring =
+Team</a></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><a href=3D"/display/ECSSSC/Self-service+Steps+to+Remove+Monitoring+on+Se=
+rvers">Self-service Steps to Remove Monitoring on Servers</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Check if server is being backed up</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Yes</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Use this <a href=3D"https://bankofnewzealand.splunkcloud.com/en-US/app/b=
+nz_opi/braas__vbr_backup_jobs?form.tkn_time.earliest=3D-24h%40h&amp;form.tk=
+n_time.latest=3Dnow&amp;form.tkn_hostname=3D*&amp;form.tkn_job=3D*" class=
+=3D"external-link" rel=3D"nofollow">Splunk dashboard</a> to check. Enter th=
+e server name in the filter to see if there were any backup jobs for the se=
+rver.</p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" draggable=3D"false" width=
+=3D"468" src=3D"e6ec21c0021692f23f0d6ae4c32db5c0" data-image-src=3D"/downlo=
+ad/attachments/1262322689/image-2025-6-26_9-6-30.png?version=3D1&amp;modifi=
+cationDate=3D1750885590803&amp;api=3Dv2" data-unresolved-comment-count=3D"0=
+" data-linked-resource-id=3D"1800994905" data-linked-resource-version=3D"1"=
+ data-linked-resource-type=3D"attachment" data-linked-resource-default-alia=
+s=3D"image-2025-6-26_9-6-30.png" data-base-url=3D"https://confluence.nz.the=
+national.com" data-linked-resource-content-type=3D"image/png" data-linked-r=
+esource-container-id=3D"1262322689" data-linked-resource-container-version=
+=3D"44" alt=3D"" height=3D"90"></span></p>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Run Final backup</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+If was backed up</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Request to HPE:<span> <a href=3D"https://nabenterprise.service-now.com/s=
+p?id=3Dsc_cat_item&amp;sys_id=3Df4447e12db95e59049959a23f39619aa" class=3D"=
+external-link" rel=3D"nofollow">Service Catalog</a></span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Remove from backup schedule</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+If was backed up</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Request to HPE:<span> <a href=3D"https://nabenterprise.service-now.com/s=
+p?id=3Dsc_cat_item&amp;sys_id=3Df4447e12db95e59049959a23f39619aa" class=3D"=
+external-link" rel=3D"nofollow">Service Catalog</a></span><span style=3D"le=
+tter-spacing: 0.0px;">.</span></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Check if the application is using Network Shares</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Investigate application to see if application files (e.g. backups) are s=
+aved to any locations (NFS or SMB), to the DataDomain or on-prem NFS server=
+s.</p><p>If these are found&nbsp;<a href=3D"https://jira.nz.thenational.com=
+/servicedesk/customer/portal/35/create/1194" class=3D"external-link" rel=3D=
+"nofollow">raise a request to remove with the Storage and Backup team</a>.&=
+nbsp;Ensure you specify the name of the application and storage being used.=
+</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Power off server</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>If your team does not have access, contact Compute Team to arrange as pa=
+rt of decom ticket.</p>
+<ul>
+<li>SSH or RDP to server using CyberArk</li>
+<li>For Windows, select "Shutdown" from the start menu</li>
+<li>For Linux, run "shutdown -h now"</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-#abf5d1 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" title=3D"Background colour : Light green 100%" colspan=3D=
+"3" data-highlight-colour=3D"#abf5d1"><p title=3D"">Actions to be performed=
+&nbsp;<strong>after </strong>server has been shutdown</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Remove relevant Firewall Rules</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>If you do not know if there are any firewall rules specific to your serv=
+ers to be removed, seek assistance from Network Protection Team for more in=
+formation.</p><p>Raise a Firewall Removal Request to Network Protection Tea=
+m (if applicable)<br><a href=3D"https://jira.nz.thenational.com/servicedesk=
+/customer/portal/71" class=3D"external-link" rel=3D"nofollow">https://jira.=
+nz.thenational.com/servicedesk/customer/portal/71</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Remove from Ansible Automation Platform (AAP)</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Remove the server from your Ansible Automation Platform inventory (used =
+for self service patching)</p><p><a href=3D"/pages/viewpage.action?pageId=
+=3D285254837">Instructions here</a></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Update ServiceNow CMDB</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"ui-provider cvl cvm c d e f g h i j k l m n o p q r=
+ s t cvn cvo w x y z ab ac ae af ag ah ai aj ak">Update ServiceNow to mark =
+the server's <span style=3D"color: rgb(21,25,32);">Hardware Status and Oper=
+ational Status as</span> <strong>Retired</strong></span></span></p>
+<p><span><span class=3D"ui-provider cvl cvm c d e f g h i j k l m n o p q r=
+ s t cvn cvo w x y z ab ac ae af ag ah ai aj ak"><a href=3D"https://nabente=
+rprise.service-now.com/cmdb_ci_server_list.do?sysparm_filter_only=3Dtrue&am=
+p;sysparm_clear_stack=3Dtrue" class=3D"external-link" rel=3D"nofollow">Clic=
+k here to go to ServiceNow</a></span></span></p>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Remove from Vulnerability reporting</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Raise a Jira ticket with the Cyber Testing team to remove the server fro=
+m Vulnerability reporting:</p><p><a href=3D"https://jira.nz.thenational.com=
+/servicedesk/customer/portal/38/create/1379" class=3D"external-link" rel=3D=
+"nofollow">Nexpose/Rapid7 - Decom servers from Rapid7 - Cyber Testing</a></=
+p></td>
+</tr>
+<tr>
+<td class=3D"highlight-#abf5d1 confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" title=3D"Background colour : Light green 100%" colspan=3D=
+"3" data-highlight-colour=3D"#abf5d1"><p title=3D"">Last step <strong>after=
+ </strong>above actions completed</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Raise Decom Request to Compute Capabilities team</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Always</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><a href=3D"https://jira.nz.thenational.com/servicedesk/customer/portal/3=
+5/create/1038" class=3D"external-link" rel=3D"nofollow">Raise a decom reque=
+st with the Compute Capabilities team:</a></p><p>Please provide confirmatio=
+n you have completed the above steps.</p>
+<ul>
+<li>If its non-production - Provide confirmation of power off</li>
+<li>If its production - Provide the Change Number used to power off</li>
+</ul><p><strong>If it's a Production server, we will wait 28 days after you=
+r shutdown change before removal.</strong></p><p>Compute will take care of:=
+</p>
+<ul style=3D"list-style-type: square;">
+<li>VM deletion in VMware and RHEV</li>
+<li>Access group deletion in Active Directory and Ping LDAP</li>
+<li>Computer removal from Active Directory, Satellite and Ping LDAP</li>
+<li>DNS record deletion (A, PTR and CNAME records)</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id=3D"DecommissionOnPremVMs-FAQ"><strong>FAQ</strong></h2>
+<p><strong>We detected an issue after powering off, how can I power it back=
+ on?</strong></p>
+<p>In the event you experience an issue and require your server(s) to be po=
+wered back on, you can reach out to us via MS Teams:&nbsp;<a href=3D"https:=
+//teams.microsoft.com/l/channel/19%3A7848251df7ab437d905d1787ce141fe1%40thr=
+ead.skype/%E2%9D%93Compute%20Capabilities%20Questions?groupId=3Dfe57567b-d9=
+8d-4d51-a698-0a0c9fcb9736&amp;tenantId=3D2dc32a81-25ce-4e14-b7bd-f7a45d1170=
+c0" class=3D"external-link" rel=3D"nofollow">Compute Capabilities Questions=
+</a> to power on. If the matter is urgent, reach out to our Oncall Engineer=
+ in xMatters under BNZ-Compute or at&nbsp;<strong style=3D"text-align: left=
+;">04 924 9117</strong></p>
+<p><strong><span>Do I need a change request for my Pre-Prod system?</span><=
+/strong></p>
+<p>No change is required if the machine is preprod. We recommend capturing =
+evidence during the process to satisfy test plan requirements on the produc=
+tion change.</p>
+<p><strong>I missed a prod system in my change, can you just do it?</strong=
+></p>
+<p>No, you will need to raise another change. We can only action against sy=
+stems specifically listed in the change</p>
+<p><strong>This system has been replaced, do I still need the 28 Day Stand =
+Down?</strong></p>
+<p><span>If the system has been replaced, it is considered to be a cleanup =
+rather than a decom activity (all of the application services must be no lo=
+nger required). We might be able to streamline the process into one change,=
+ however you will still need to own the change and accept associated risks.=
+</span></p>
+<p><strong>Is there a BNZ level decom page we can look at?</strong></p>
+<p>Please refer to the official process can be found here: <a href=3D"https=
+://bnz.sharepoint.com/sites/TechnologyChangeManagement/SitePages/Change-Man=
+agement-Procedure.aspx" class=3D"external-link" rel=3D"nofollow">https://bn=
+z.sharepoint.com/sites/TechnologyChangeManagement/SitePages/Change-Manageme=
+nt-Procedure.aspx</a></p>
+<p><strong>What is the Process for Hardware Removal?</strong></p>
+<p>The workflow for Hardware Destruction/Re-Use can be found here: <a href=
+=3D"https://confluence.nz.thenational.com/x/hwSwGg" rel=3D"nofollow">https:=
+//confluence.nz.thenational.com/x/hwSwGg</a></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_49_1774258734.1758751178939
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/e6ec21c0021692f23f0d6ae4c32db5c0
+
+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
+
+------=_Part_49_1774258734.1758751178939--

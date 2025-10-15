@@ -1,0 +1,955 @@
+Date: Wed, 24 Sep 2025 13:29:47 +1200 (NZST)
+Message-ID: <2082840094.3647.1758677387230@ip-10-86-56-187.ap-southeast-2.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_3646_2064969341.1758677387229"
+
+------=_Part_3646_2064969341.1758677387229
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>MSSQL Team Links</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>MSSQL Team Links</h1>
+    <div class=3D"Section1">
+        <h1 class=3D"auto-cursor-target" id=3D"MSSQLTeamLinks--linktoGOC,ma=
+jortechbridge,etc."><a href=3D"/pages/viewpage.action?pageId=3D191169391">M=
+ajor Incident Management</a> - link to GOC, major tech bridge, etc.</h1>
+<h1 class=3D"auto-cursor-target" id=3D"MSSQLTeamLinks-MSSQLSrvLinks">MSSQLS=
+rvLinks</h1>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"font-size:=
+ 14.0px;width: 29.9178%;">
+<colgroup>
+<col style=3D"width: 32.4771%;">
+<col style=3D"width: 67.5229%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" class=3D"confluenceTh">Common</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://myhome.bnznag.nz.thenational.c=
+om" class=3D"external-link" rel=3D"nofollow">Mercury</a></td>
+<td class=3D"confluenceTd">BNZ Homepage</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://bnz.serraview.c=
+om/locator/" class=3D"external-link" rel=3D"nofollow">Wayfinder</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Find location or person in office<=
+/td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://bnzintranet-domi=
+no.nz.thenational.com/BNZPHONE.NSF/Parent?OpenFrameset" class=3D"external-l=
+ink" rel=3D"nofollow">BNZ Phone Directory</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Phone Directory</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://nabenterprise.s=
+ervice-now.com/nav_to.do?uri=3D%2F$pa_dashboard.do%3Fsysparm_dashboard%3D9e=
+165802dbfc401004007b133a961966%26sysparm_tab%3D3216d802dbfc401004007b133a96=
+1955%26sysparm_cancelable%3Dtrue%26sysparm_editable%3Dundefined%26sysparm_a=
+ctive_panel%3Dfalse" class=3D"external-link" rel=3D"nofollow">Tahi IT ITIL =
+Home</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Our change/incident manager&nbsp;<=
+/td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Incident Management: <span><span class=3D"ui-provider a b c d e f g h i =
+j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak"><a class=3D"f=
+ui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fo=
+uc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1q=
+ch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y=
+ f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h=
+8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href=3D"https://confluence.nz.the=
+national.com/display/BNZSM/Incident+Management" rel=3D"nofollow">https://co=
+nfluence.nz.thenational.com/display/BNZSM/Incident+Management</a></span></s=
+pan></p>
+<p><span>Major Incident Management: <span class=3D"ui-provider a b c d e f =
+g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak"><a clas=
+s=3D"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv=
+ fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju=
+0i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1=
+ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev4=
+1a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href=3D"https://confluence.=
+nz.thenational.com/display/BMIM/BNZ+Major+Incident+Management" rel=3D"nofol=
+low">https://confluence.nz.thenational.com/display/BMIM/BNZ+Major+Incident+=
+Management</a></span></span></p>
+<p><span><span class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t=
+ u v w x y z ab ac ae af ag ah ai aj ak">Platforms: Our Products: <a class=
+=3D"fui-Link ___1rxvrpe f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv =
+fk6fouc fjoy568 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0=
+i f1qch9an f1cnd47f fqv5qza f1vmzxwi f1o700av f13mvf36 f1cmlufx f9n3di6 f1i=
+ds18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41=
+a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href=3D"https://confluence.n=
+z.thenational.com/display/ECS/Platforms+-+Our+Products" rel=3D"nofollow">ht=
+tps://confluence.nz.thenational.com/display/ECS/Platforms+-+Our+Products</a=
+></span></span></p>
+<p><span><span class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t=
+ u v w x y z ab ac ae af ag ah ai aj ak">IT Service Desk Contacts: <a class=
+=3D"external-link" href=3D"https://bnz.sharepoint.com/sites/intranet021/Sit=
+ePages/IT-Service-Desk.aspx?xsdata=3DMDV8MDJ8fDViOTFlMDU3OGZlMzQyNDEyN2U5MD=
+hkY2ExZmJlZDhmfDJkYzMyYTgxMjVjZTRlMTRiN2JkZjdhNDVkMTE3MGMwfDB8MHw2Mzg1NjMzN=
+TA1NzQyMTMwOTd8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lN=
+QzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZ=
+RPT18MXxMMk5vWVhSekx6RTVPbTFsWlhScGJtZGZXbXBvYWxsNldUUlBSMVYwVDFkUk1FMURNRE=
+JPYlZVMVRGUnJlVTlYVVhSWmFrVXpUa2RXYVZwdFZUSlBWRkV4UUhSb2NtVmhaQzUyTWk5dFpYT=
+npZV2RsY3k4eE56SXdOek00TWpVMU5EZzJ8OGJjMDE2YjU4OGFlNDExYjI3ZTkwOGRjYTFmYmVk=
+OGZ8YjAyMGI4ZGMyMDAwNDIyNGI3MGFmYzY0ZDYyMmFlNzI%3D&amp;sdata=3DeGc3Yi93dis3=
+V05VbnNORFI1MGxzM0xlSENJQVdMN1hwOFVQRHU5WHA3QT0%3D&amp;ovuser=3D2dc32a81-25=
+ce-4e14-b7bd-f7a45d1170c0%2CAnna_du_Plessis%40bnz.co.nz" rel=3D"nofollow">h=
+ttps://bnz.sharepoint.com/sites/intranet021/SitePages/IT-Service-Desk.aspx<=
+/a></span></span></p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 30.=
+0822%;">
+<colgroup>
+<col style=3D"width: 42.8832%;">
+<col style=3D"width: 57.1168%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" class=3D"confluenceTh">Enterprise Data and Information Se=
+rvices - Data Management</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://bnz.sharepoint.com/teams/tech=
+services/datamgmt/default.aspx" class=3D"external-link" rel=3D"nofollow">DM=
+ Connect Site</a></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://bnz.sharepoint.=
+com/:x:/r/teams/SQLServer/Shared%20Documents/General/MSSQL%20DBA%20Leave%20=
+and%20Training%20Planner%202020.xlsx?d=3Dw80f8ddf91f004984a6b43ef6a2b7a4a0&=
+amp;csf=3D1&amp;e=3DNoOIbU" class=3D"external-link" rel=3D"nofollow">Leave =
+and Training Planner</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://octopus-os/app#=
+/projects" class=3D"external-link" rel=3D"nofollow">Octopus</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://digital-dev.nz.=
+thenational.com/stash/projects/DSM" class=3D"external-link" rel=3D"nofollow=
+">BitBucket - DS-MSSQL</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://bnz.sharepoint.com/:x:/r/team=
+s/techservices/datamgmt/Lists/Team%20Documents/SQL%20Server%20VM%20Environm=
+ent%20Diagram.xlsx?d=3Dw69103efe0f7c46418286efc68aa68f13&amp;csf=3D1&amp;e=
+=3DMrt63C" class=3D"external-link" rel=3D"nofollow">SQL Server VM Environme=
+nt</a></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://pam.nz.thenatio=
+nal.com/PasswordVault/v10/logon/radius" class=3D"external-link" rel=3D"nofo=
+llow">CyberArk</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://digital-dev.nz.=
+thenational.com/confluence/display/PAM/Quick+Reference+Guides" class=3D"ext=
+ernal-link" rel=3D"nofollow">CyberArk User Guide</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 30.=
+137%;">
+<colgroup>
+<col style=3D"width: 42.4408%;">
+<col style=3D"width: 57.5592%;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" class=3D"confluenceTh">Monitoring &amp; ITSM</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://www.emsg.co.nz/" class=3D"exte=
+rnal-link" rel=3D"nofollow">EMSG</a></td>
+<td class=3D"confluenceTd">? need to check</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://nab.hosted.xmat=
+ters.com/" class=3D"external-link" rel=3D"nofollow">xMatters</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Incident escalation manager</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://saklnbocp01/ops=
+center" class=3D"external-link" rel=3D"nofollow">NetBackup OpsCenter</a></t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://splunk-prod.nz.=
+thenational.com/" class=3D"external-link" rel=3D"nofollow">Splunk</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Logs monitoring</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://truesight/" cla=
+ss=3D"external-link" rel=3D"nofollow">TrueSight</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">Monitoring views</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://status.bnz.co.nz=
+/" class=3D"external-link" rel=3D"nofollow">BNZ Status</a></td>
+<td colspan=3D"1" class=3D"confluenceTd">?</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://pxbvsc01:3780/l=
+ogin.jsp" class=3D"external-link" rel=3D"nofollow">nexpose</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://swlgvcsp1:9443/=
+vsphere-client" class=3D"external-link" rel=3D"nofollow">vsphere-client</a>=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">VM shell</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"4" class=3D"confluenceTh">MS SQL Server</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://serviceshub.microsoft.com/hom=
+e" class=3D"external-link" rel=3D"nofollow">MS ServicesHub</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://support.microsoft.com/ph/14917=
+#tab0" class=3D"external-link" rel=3D"nofollow">SQL Server Solution Center<=
+/a></td>
+<td class=3D"confluenceTd"><a href=3D"http://msdn.microsoft.com/sqlserver" =
+class=3D"external-link" rel=3D"nofollow">MSDN SQL Server</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://www.microsoft.com/sqlserver" c=
+lass=3D"external-link" rel=3D"nofollow">MS SQL Server Home</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://services.premie=
+r.microsoft.com/" class=3D"external-link" rel=3D"nofollow">MS Premier Suppo=
+rt Services</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://manage.windowsa=
+zure.com/" class=3D"external-link" rel=3D"nofollow">WindowsAzure</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://technet.microsof=
+t.com/en-us/sqlserver/bb671052.aspx" class=3D"external-link" rel=3D"nofollo=
+w">Technet SQL Server Blogs</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/EDSShare/MSSQL/SQL_S=
+erver_2008R2_System_Views_Map.xps" class=3D"external-link" rel=3D"nofollow"=
+>MSSQL2008R2 System Views</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://www.microsoft.c=
+om/Licensing/servicecenter/Home.aspx" class=3D"external-link" rel=3D"nofoll=
+ow">MS Volume Licensing Service Center</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/EDSShare/MSSQL/Perio=
+dic-Table-of-DMOs_2012.pdf" class=3D"external-link" rel=3D"nofollow">Period=
+ic-Table-of-DMOs 2012</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"6" class=3D"confluenceTh">Reporting Services</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><em><strong>Prod</strong></em></td>
+<td class=3D"confluenceTd"><em><strong>DR</strong></em></td>
+<td class=3D"confluenceTd"><em><strong>PPTE/QA</strong></em></td>
+<td class=3D"confluenceTd"><em><strong>Test</strong></em></td>
+<td class=3D"confluenceTd"><em><strong>Dev</strong></em></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://swlgdmsqlt01/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SWLGDMSQLT01</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://swlgdmsqld01/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SWLGDMSQLD01</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><em><strong>FEA 2014</strong></em>=
+</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlp02/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLP02</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlp22/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLP22</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlq02/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLQ02</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlt02/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLT02</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><strong><em>FEA 2018R2</em></stron=
+g></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlp03/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLP03</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlp23/Rep=
+orts" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLP23</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sakldmsqlq03/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SAKLDMSQLQ03</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><strong><em>Rpt 2014</em></strong>=
+</td>
+</tr>
+<tr>
+<td colspan=3D"6" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlrsprod/Report=
+s/" class=3D"external-link" rel=3D"nofollow">SQLRSProd</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlclusp5ha/Repo=
+rts/" class=3D"external-link" rel=3D"nofollow">SQLClusP5HA</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlrsppte/Report=
+s/" class=3D"external-link" rel=3D"nofollow">SQLRSPPTE</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlrstest/Report=
+s/" class=3D"external-link" rel=3D"nofollow">SQLRSTest</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://saklbnzisqld01/R=
+eports/" class=3D"external-link" rel=3D"nofollow">SAKLBNZISQLD01</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><strong><em>FCI 2008R2</em></stron=
+g></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sorbbnzisqlp01/R=
+eports" class=3D"external-link" rel=3D"nofollow">SORBBNZISQLP01</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://saklbnzisqld02/R=
+eports/" class=3D"external-link" rel=3D"nofollow">SAKLBNZISQLD02</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><em><strong>/ BNZI</strong></em></=
+td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://saklbnzisqld03/R=
+eports/" class=3D"external-link" rel=3D"nofollow">SAKLBNZISQLD03</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"6" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sorbsccmdbp01/Re=
+ports" class=3D"external-link" rel=3D"nofollow">SORBSCCMDBP01</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://saklsccmdbtd01/R=
+eports" class=3D"external-link" rel=3D"nofollow">SAKLSCCMDBTD01</a> <sup><a=
+ href=3D"#MSSQLTeamLinks-Reference">5</a></sup></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><em><strong>SCCM</strong></em></td=
+>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sorbdmsqlp07/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SORBDMSQLP07</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://settdmsqlp27/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SETTDMSQLP27</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://settdmsqlq07/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SETTDMSQLQ07</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://settdmsqlt07/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SETTDMSQLT07</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://settdmsqld07/Rep=
+orts/" class=3D"external-link" rel=3D"nofollow">SETTDMSQLD07</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><em><strong>Rpt 2017</strong></em>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 124.0px;">
+<col style=3D"width: 122.0px;">
+<col style=3D"width: 111.0px;">
+<col style=3D"width: 29.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"4" class=3D"confluenceTh">DFS</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/DBFileXfr" class=3D"=
+external-link" rel=3D"nofollow">DBFileXfr (Prod)</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/DBFileXfr_PPTE" clas=
+s=3D"external-link" rel=3D"nofollow">DBFileXfr PPTE</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/DBFileXfr_Test" clas=
+s=3D"external-link" rel=3D"nofollow">DBFileXfr Test</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/EDSShare/Source" cla=
+ss=3D"external-link" rel=3D"nofollow">EDSShare\Source</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/EDSShare" class=3D"e=
+xternal-link" rel=3D"nofollow">EDSShare</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/DMShare" class=3D"ex=
+ternal-link" rel=3D"nofollow">DMShare</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenat=
+ional.com/dfslocation/ApplicationSource/DataManagement/DBAShare" class=3D"e=
+xternal-link" rel=3D"nofollow">DBAShare</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"MSSQLTeamLinks-MSSQLExtra">MSSQLExtra</h1>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"5" class=3D"confluenceTh">SQL Support</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://login.live.com/login.srf?wa=
+=3Dwsignin1.0&amp;rpsnv=3D11&amp;ct=3D1287025121&amp;rver=3D6.0.5276.0&amp;=
+wp=3DMCMBI&amp;wreply=3Dhttps:%2F%2Fpremier.microsoft.com%2F&amp;lc=3D3081&=
+amp;cb=3Dwizid%3Df4502d34-3b8f-4a04-b741-289e08aa1782%26brand%3DMicrosoft%2=
+6returnurl%3Dhttps%253a%252f%252fpremie" class=3D"external-link" rel=3D"nof=
+ollow">MS Premier Support</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://support.microsoft.com/ph/14917=
+#tab0" class=3D"external-link" rel=3D"nofollow">SQL Server Solution Center<=
+/a></td>
+<td class=3D"confluenceTd"><a href=3D"http://msdn.microsoft.com/sqlserver" =
+class=3D"external-link" rel=3D"nofollow">MSDN SQL Server</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://www.microsoft.com/sqlserver" c=
+lass=3D"external-link" rel=3D"nofollow">MS SQL Server Home</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://technet.microsoft.com/en-us/sq=
+lserver/bb671052.aspx" class=3D"external-link" rel=3D"nofollow">Technet SQL=
+ Server Blogs</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlcat.com/" cla=
+ss=3D"external-link" rel=3D"nofollow">SQLCAT</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.simple-talk.=
+com/sql/" class=3D"external-link" rel=3D"nofollow">Simple-Talk SQL</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.sqlsecurity.=
+com/" class=3D"external-link" rel=3D"nofollow">SQLSecurity</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://technet.microsof=
+t.com/en-us/sqlserver/bb331794.aspx" class=3D"external-link" rel=3D"nofollo=
+w">Best Practices Technet</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://msdn.microsoft.c=
+om/en-us/sqlserver/bb671432.aspx" class=3D"external-link" rel=3D"nofollow">=
+Best Practices MSDN</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.sql-server-p=
+erformance.com/" class=3D"external-link" rel=3D"nofollow">SQL-Server-Perfor=
+mance</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.mssqltips.co=
+m/tip.asp?tip=3D1426" class=3D"external-link" rel=3D"nofollow">MSSQLTips</a=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.sqlteam.com/=
+" class=3D"external-link" rel=3D"nofollow">SQLTeam</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.sswug.org/" =
+class=3D"external-link" rel=3D"nofollow">SSWUG</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.grumpyolddba=
+.co.uk/" class=3D"external-link" rel=3D"nofollow">GrumpyOldDBA</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.brentozar.co=
+m/" class=3D"external-link" rel=3D"nofollow">BrentOzar</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://blogs.msdn.com/b=
+/cindygross/" class=3D"external-link" rel=3D"nofollow">Blog - CindyGross</a=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlblogcasts.com=
+/blogs/grumpyolddba/default.aspx" class=3D"external-link" rel=3D"nofollow">=
+Blog - Grumpy Old DBA</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://facility9.com/" =
+class=3D"external-link" rel=3D"nofollow">Facility9</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.bradmcgehee.=
+com/" class=3D"external-link" rel=3D"nofollow">Blog - BradMcGehee</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://itknowledgeexcha=
+nge.techtarget.com/sql-server/" class=3D"external-link" rel=3D"nofollow">IT=
+KnowledgeExchange</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://thomaslarock.com=
+/" class=3D"external-link" rel=3D"nofollow">SQL Rockstar</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.sqlskills.co=
+m/" class=3D"external-link" rel=3D"nofollow">SQLSkills</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlvariant.com/w=
+ordpress/" class=3D"external-link" rel=3D"nofollow">SQLVariant</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://thesqlagentman.c=
+om/" class=3D"external-link" rel=3D"nofollow">TheSQLAgentMan</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://blogs.msdn.com/b=
+/sqlreleaseservices/" class=3D"external-link" rel=3D"nofollow">SQLReleaseSe=
+rvices Blog</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://support.microsof=
+t.com/kb/321185" class=3D"external-link" rel=3D"nofollow">SQLVersionList</a=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://sqlserverbuilds.=
+blogspot.co.nz/" class=3D"external-link" rel=3D"nofollow">SQLServerBuilds</=
+a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://ola.hallengren.c=
+om/" class=3D"external-link" rel=3D"nofollow">SQL Server Maintenance Soluti=
+on</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.microsoft.co=
+m/en-us/download/details.aspx?id=3D16978" class=3D"external-link" rel=3D"no=
+follow">MS SQL 2008 R2 Feature Pack</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://manage.windowsa=
+zure.com/" class=3D"external-link" rel=3D"nofollow">WindowsAzure</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.microsoft.co=
+m/sqlserver/en/us/common-criteria.aspx" class=3D"external-link" rel=3D"nofo=
+llow">MSSQL common-criteria</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://support.microsof=
+t.com/lifecycle/search/?sort=3DPN&amp;alpha=3Dsql" class=3D"external-link" =
+rel=3D"nofollow">MSSQL SoftwareLifeCycle</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://www.toadworld.co=
+m/platforms/sql-server" class=3D"external-link" rel=3D"nofollow">SQLServerP=
+edia</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://technet.microso=
+ft.com/en-us/library/ms130214(v=3Dsql.120).aspx" class=3D"external-link" re=
+l=3D"nofollow">MS SQL Books Online</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"4" class=3D"confluenceTh">Service Request</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenational.com/dfsl=
+ocation/ApplicationSource/DataManagement/EDSShare/MSSQL/Submitting%20a%20CS=
+R%20request%20to%20be%20signed.docx" class=3D"external-link" rel=3D"nofollo=
+w">WinTel Cert request process</a></td>
+<td class=3D"confluenceTd"><a href=3D"file://bnznag.nz.thenational.com/dfsl=
+ocation/ApplicationSource/DataManagement/EDSShare/MSSQL/Win2012%20Cert%20Re=
+quest.doc" class=3D"external-link" rel=3D"nofollow">Win2012 Cert request wa=
+lkthrough</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://swlgpkip1/certsrv" class=3D"ex=
+ternal-link" rel=3D"nofollow">http://swlgpkip1/certsrv</a> <a href=3D"#MSSQ=
+LTeamLinks-Reference"><sup>6</sup></a></td>
+<td class=3D"confluenceTd"><a href=3D"https://nabenterprise.service-now.com=
+/sp?id=3Dsc_cat_item&amp;sys_id=3D332a7100dba280908b9115133a9619f8&amp;sysp=
+arm_category=3D8e6fa538db1e845c498c7b133a96196f" class=3D"external-link" re=
+l=3D"nofollow">DSAR / Legacy Sysyem Access</a></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://digital-dev.nz.=
+thenational.com/confluence/display/ECSSSC/How+to+engage+the+SSC" class=3D"e=
+xternal-link" rel=3D"nofollow">ECS SSC Engagement</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"http://bnzintranet-domi=
+noxpages.nz.thenational.com/NAG/TelecomServiceRequest.nsf/Tools.xsp" class=
+=3D"external-link" rel=3D"nofollow">TelecomServiceRequest</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://pki-adminservic=
+es-prod.bnznag.nz.thenational.com:9443/UserManagement" class=3D"external-li=
+nk" rel=3D"nofollow">PKI Cert Request</a></td>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://pki-esfw-prod.b=
+nznag.nz.thenational.com/cda-cgi/clientcgi.exe?action=3DserverCert" class=
+=3D"external-link" rel=3D"nofollow">PKI Cert Sign</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"5" class=3D"confluenceTh">Remote Access</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"https://staff.bnzras.net/" class=3D"e=
+xternal-link" rel=3D"nofollow">BNZ RAS</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://webmail.bnz.co.nz/" class=3D"=
+external-link" rel=3D"nofollow">BNZ WebMail</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://go.bnzras.net/" class=3D"exte=
+rnal-link" rel=3D"nofollow">BNZ BrowserSession</a></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><a href=3D"https://bnzinternetwifi.bnznag.nz.the=
+national.com/" class=3D"external-link" rel=3D"nofollow">BNZInternetWIFI</a>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"5" class=3D"confluenceTh">Business Intelligence</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://bitechnician/HomePage.do" clas=
+s=3D"external-link" rel=3D"nofollow">BI ServiceDesk</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://connect.bnznag.nz.thenational.=
+com/teams/bi/bi/SoftwareDocs/Forms/AllItems.aspx?RootFolder=3D%2Fteams%2Fbi=
+%2Fbi%2FSoftwareDocs%2FDatabase%2FDBA%20Handover%20Documents" class=3D"exte=
+rnal-link" rel=3D"nofollow">BI SharePoint Site</a></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"5" class=3D"confluenceTh">Other</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://www.microsoft.com/technet/scri=
+ptcenter/default.mspx" class=3D"external-link" rel=3D"nofollow">MSScriptCen=
+ter</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://commandwindows.com/" class=3D"=
+external-link" rel=3D"nofollow">CommandWindows</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://stackoverflow.com/" class=3D"e=
+xternal-link" rel=3D"nofollow">StackOverflow</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://technet.microsoft.com/en-nz/sy=
+sinternals" class=3D"external-link" rel=3D"nofollow">SysInternals</a></td>
+<td class=3D"confluenceTd"><a href=3D"http://sakldmsqlp04:5580/" class=3D"e=
+xternal-link" rel=3D"nofollow">DBArtisan ELC Prod</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://blogs.technet.com/b/heyscripti=
+ngguy/" class=3D"external-link" rel=3D"nofollow">heyscriptingguy</a></td>
+<td class=3D"confluenceTd"><a href=3D"https://mva.microsoft.com/" class=3D"=
+external-link" rel=3D"nofollow">MS Virtual Academy</a></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><a href=3D"http://sakldmsqlp24:5580/" class=3D"e=
+xternal-link" rel=3D"nofollow">DBArtisan ELC DR</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><a href=3D"http://10.40.254.59/arsys/shared/logi=
+n.jsp" class=3D"external-link" rel=3D"nofollow">Remedy Training Environment=
+</a></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"MSSQLTeamLinks-ReferenceReferences"><br><span class=3D"confluence=
+-anchor-link" id=3D"MSSQLTeamLinks-Reference"></span>References</h2>
+<p><sup>1</sup>&nbsp;Login with BNZ email address but external password</p>
+<p><sup>2</sup>&nbsp;Login with standard windows account and password - ###=
+###</p>
+<p><sup>3</sup> Login with ######c</p>
+<p><sup>4</sup> Login with BNZNAG\######c</p>
+<p><sup>5</sup> testbnznag domain</p>
+<p><sup>6</sup>&nbsp;Run IE with "C" account</p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_3646_2064969341.1758677387229--

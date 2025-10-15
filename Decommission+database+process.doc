@@ -1,0 +1,340 @@
+Date: Fri, 19 Sep 2025 10:31:29 +1200 (NZST)
+Message-ID: <452757555.1431.1758234689581@ip-10-86-56-132.ap-southeast-2.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_1430_1230051763.1758234689580"
+
+------=_Part_1430_1230051763.1758234689580
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Decommission database process</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Decommission database process</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p>This article covers the procedures required to remove a database from a =
+shared database server. The focus in on a specific database, not the retiri=
+ng of a whole server. But it still should be part of the Good to Leave proc=
+ess (<a href=3D"https://bnz.sharepoint.com/teams/techSM/SitePages/Change---=
+The-decommissioning-process.aspx" class=3D"external-link" rel=3D"nofollow">=
+https://bnz.sharepoint.com/teams/techSM/SitePages/Change---The-decommission=
+ing-process.aspx</a>) driven by the application product owner.</p>
+<p><br></p>
+<p>There are two phases aligning with Good to Leave, first a cooling off pe=
+riod of at least 28 days where the database components are in an offline or=
+ disabled state. The next/final stage is the deletion of databases and rela=
+ted dependencies. Both require separate change records, the database action=
+s ideally will be tasks in the application=E2=80=99s Good to Leave change r=
+ecords.</p>
+<p><br></p>
+<p><strong>Phase 1: cool down</strong></p>
+<p style=3D"margin-left: 40.0px;">Backup database and dependencies:</p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Extract logins</li>
+<li>Agent Jobs</li>
+<li>Linked servers</li>
+<li>SSIS packages</li>
+<li>Reporting Services reports</li>
+<li>Analysis Services packages</li>
+<li>Database file dependencies (e.g. file system packages)</li>
+</ul></li>
+</ul>
+<p>Monitoring: <a href=3D"https://confluence.nz.thenational.com/display/ECS=
+SSC/Self-service+Steps+to+Remove+Monitoring+on+Servers" rel=3D"nofollow">Se=
+lf-service Steps to Remove Monitoring on Servers - Monitoring - BNZ Conflue=
+nce</a></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Go to <a href=3D"https://bitbucket.nz.thenational.com/projects/SSC/repo=
+s/device_incident_blackout/browse" class=3D"external-link" rel=3D"nofollow"=
+>Browse Engineering Monitoring Team / Device_Incident_Blackout - BNZ Stash<=
+/a> and add the servers as &lt;servername&gt;, DECOMMISSIONED</li>
+<li>Remove the server off the ping list here: <a href=3D"https://bitbucket.=
+nz.thenational.com/projects/SSC/repos/device_ping_monitoring/browse/pinglis=
+t.txt?until=3De97dae25aceb0e0e243e11f0716baf2c35ffd7d3&amp;untilPath=3Dping=
+list.txt" class=3D"external-link" rel=3D"nofollow">Source of pinglist.txt -=
+ Device_Ping_Monitoring - BNZ Stash</a></li>
+<li>Truesight / Splunk Monitoring: <a href=3D"https://confluence.nz.thenati=
+onal.com/display/ECSSSC/How+to+engage+the+Monitoring+Team" rel=3D"nofollow"=
+>How to engage the Monitoring Team - Monitoring - BNZ Confluence</a></li>
+</ul></li>
+</ul>
+<p style=3D"margin-left: 40.0px;">Copy backups to the application archive l=
+ocation. If there isn=E2=80=99t a specific location and the size isn=E2=80=
+=99t unreasonable use the database infrastructure server (\\sakldmsqlp04\s$=
+\DBA\Archive\) until an enterprise solution is available. Usually only the =
+production data is required but confirm with product owner.</p>
+<p style=3D"margin-left: 40.0px;"><br></p>
+<p style=3D"margin-left: 40.0px;">Then alter the database/s offline and dis=
+able related components:</p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Disable agent jobs,</li>
+<li>Disable reporting services subscriptions</li>
+<li>Disable logins</li>
+</ul></li>
+</ul>
+<p><br></p>
+<p style=3D"margin-left: 40.0px;">Database monitoring is generally dynamic,=
+ there might be an alert when the database or instance initially goes offli=
+ne. Acknowledge these for now and close them after the database/server is d=
+eleted. Review any explicit monitoring configuration and request the Monito=
+ring team to disable/delete.</p>
+<p><br></p>
+<p><strong>Phase 2: deletion</strong></p>
+<p style=3D"margin-left: 40.0px;">There needs to be a database deletion tas=
+k for the DBAs plus tasks for Platforms to remove any retired AD objects (D=
+NS aliases and computers - listener entries, SPNs) and Security actions to =
+remove service accounts and groups. When the final deletion task is moved t=
+o implement, then perform the deletion of database components:</p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Database/s</li>
+<li>Logins</li>
+<li>Audits and database triggers</li>
+<li>Agent Jobs</li>
+<li>Linked servers</li>
+<li>SSIS packages</li>
+<li>Reporting Services reports</li>
+<li>Analysis Services packages</li>
+<li>Database file dependencies (e.g. file system packages, file transfer di=
+rectories)</li>
+<li>Certificates =E2=80=93 update sysalternates on windows server certs</li=
+>
+<li>Review licensing requirements</li>
+<li>Remove unused features from instance</li>
+<li>Update documentation</li>
+<li>Close any open incidents and problems.</li>
+</ul></li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_1430_1230051763.1758234689580--
